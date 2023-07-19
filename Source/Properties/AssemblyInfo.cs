@@ -7,9 +7,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("Bat2Exe")]
 [assembly: AssemblyDescription("Converts your batch files into executables.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("https://github.com/dehoisted")]
+[assembly: AssemblyCompany("https://github.com/LiuJiewenTT")]
 [assembly: AssemblyProduct("Bat2Exe")]
-[assembly: AssemblyCopyright("Copyright © 2021 https://github.com/dehoisted/Bat2Exe")]
+[assembly: AssemblyCopyright("Copyright © 2021 https://github.com/LiuJiewenTT/Bat2Exe")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

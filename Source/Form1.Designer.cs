@@ -288,7 +288,7 @@ namespace Bat2Exe
             this.guna2Chip2.ShadowDecoration.Parent = this.guna2Chip2;
             this.guna2Chip2.Size = new System.Drawing.Size(216, 40);
             this.guna2Chip2.TabIndex = 14;
-            this.guna2Chip2.Text = "https://github.com/dehoisted";
+            this.guna2Chip2.Text = "https://github.com/LiuJiewenTT";
             // 
             // guna2GroupBox1
             // 

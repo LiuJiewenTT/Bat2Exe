@@ -31,7 +31,7 @@ namespace Bat2Exe
             string code_text2 = "private static string batch_cmd = @\"" + batch_cmd + "\";";
             string code_text3 = @"
         private static int randstr_length = 8;
-        private static string official_bat2exe_github = ""https://github.com/dehoisted/Bat2Exe"";
+        private static string official_bat2exe_github = ""https://github.com/LiuJiewenTT/Bat2Exe"";
 
         [DllImport(""kernel32.dll"", SetLastError = true, ExactSpelling = true)]
         static extern bool FreeConsole();
@@ -113,10 +113,13 @@ namespace Bat2Exe
     class Program
     {
         ";
-            string code_text2 = "private static string batch_cmd = @\"" + batch_cmd + "\";string official_bat2exe_github = \"https://github.com/dehoisted/Bat2Exe\";";
+            string code_text2 = "private static string batch_cmd = @\"" + batch_cmd + "\";string official_bat2exe_github = \"https://github.com/LiuJiewenTT/Bat2Exe\";";
             string code_text3 = @"
         public static void Main()
         {
+            string[] args = { };
+            Environment.GetCommandLineArgs().CopyTo(args, 1);
+
             Process p = new Process();
             ProcessStartInfo info = new ProcessStartInfo
             {
@@ -135,7 +138,8 @@ namespace Bat2Exe
                     ex_code_text1 = @"CreateNoWindow = false,";
                     break;
             }
-            string code_text4 = @"UseShellExecute = false
+            string code_text4 = @"UseShellExecute = false,
+                ArgumentList = args
             };
 
             p.StartInfo = info;

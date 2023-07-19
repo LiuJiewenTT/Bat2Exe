@@ -11,7 +11,7 @@ namespace Bat2Exe
 {
     public partial class Bat2Exe : Form
     {
-        public const string github_link = "https://github.com/dehoisted", my_telegram = "https://t.me/Constex", updates_link = "https://raw.githubusercontent.com/dehoisted/Bat2Exe/main/version.txt",
+        public const string github_link = "https://github.com/LiuJiewenTT", my_telegram = "https://t.me/Constex", updates_link = "https://raw.githubusercontent.com/LiuJiewenTT/Bat2Exe/main/version.txt",
             program_version = "2.1", last_updated = "11/17/2021", obf_bat_file = "obfuscated_source.bat";
         private string batch_cmd, batch_filepath = "", icon_filepath = "", OutputP, SourceP, LogP, update_str;
         private bool bat_file_entered = false;
